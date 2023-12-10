@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.mainDivHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #161625;
+  min-height: 100vh;
+  max-height: fit-content;
+  padding: 20px;
+}
+.headerName {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: #2cc6c6;
+}
+.co-win {
+  width: 3vw;
+}
+.heading {
+  margin-left: 10px;
+}
+.div1 {
+  align-self: flex-start;
+}
+.india {
+  color: #ffffff;
+}
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  width: 50%;
+  margin: 10px;
+}
+
+.failure-text {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 25px;
+  line-height: 1.4;
+  text-align: center;
+}
